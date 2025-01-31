@@ -24,4 +24,4 @@ curl -X POST http:/api2.qeintech.in/v1/chat/completions \
 - React Next.js
 - Tailwind CSS
 - [Flowbite](https://flowbite.com/docs/getting-started/next-js/)
-- Extras: Ideogram AI, gitHub copilot (vscode) for content generation.
+- Extras: Ideogram AI, github copilot (vscode) for content generation.
