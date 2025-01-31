@@ -9,7 +9,7 @@ export default function APIReference() {
           {`curl -X POST https://api2.qeintech.in/v1/chat/completions \\
      -H "Content-Type: application/json" \\
      -d '{
-          "model": "gemma2-9b",
+          "model": "gpt-4",
           "messages": [
         { "role": "user", "content": "what happens to our consciousness when we sleep?" }
            ]
