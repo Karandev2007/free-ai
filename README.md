@@ -10,14 +10,14 @@ Free-AI is an experimental project designed to provide free access to AI models,
 curl -X POST http:/api2.qeintech.in/v1/chat/completions \
      -H "Content-Type: application/json" \
      -d '{
-           "model": "gemma2-9b",
+           "model": "gpt-4",
            "messages": [
              { "role": "user", "content": "what happens to our consciousness when we sleep?" }
            ]
          }'
 ```
 
-- Available Models: gpt4, gemma2-9b, gemini, llama3-8b
+- Available Models: gpt-4, gemma2-9b, gemini, llama3-8b
 - API Ratelimit - 10 requests/minute
 
 ## Tech Used:
